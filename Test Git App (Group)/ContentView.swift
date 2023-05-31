@@ -10,10 +10,24 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello world")
+			TabView {
+				SView()
+					.tabItem {
+						Label("lol", systemImage: "person")
+					}
+				yes()
+					.tabItem {
+						Label("lol", systemImage: "person")
+					}
+				chantalad()
+					.tabItem {
+						Label("lol", systemImage: "person.circle.fill")
+					}
+				kayden()
+					.tabItem {
+						Label("lol", systemImage: "person.circle.fill")
+					}
+			}
         }
         .padding()
     }
