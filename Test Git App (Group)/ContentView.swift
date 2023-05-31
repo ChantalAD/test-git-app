@@ -21,7 +21,7 @@ struct ContentView: View {
 					}
 				chantalad()
 					.tabItem {
-						Label("lol", systemImage: "person.circle.fill")
+						Label("Kayden", systemImage: "person.circle.fill")
 					}
 				kayden()
 					.tabItem {
